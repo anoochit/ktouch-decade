@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/NumZero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:onClick="onClickZero"
+        android:src="@drawable/numzero" />
+
+    <ImageView
+        android:id="@+id/NumOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/NumZero"
+        android:layout_marginRight="32dp"
+        android:layout_toLeftOf="@+id/NumZero"
+        android:onClick="onClickOk"
+        android:src="@drawable/numok" />
+
+    <ImageView
+        android:id="@+id/NumCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/NumZero"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/NumZero"
+        android:onClick="onClickCancel"
+        android:src="@drawable/numcancel" />
+
+    <ImageView
+        android:id="@+id/NumTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NumZero"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@+id/NumOk"
+        android:onClick="onClickTwo"
+        android:src="@drawable/numtwo" />
+
+    <ImageView
+        android:id="@+id/NumFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NumTwo"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@+id/NumOk"
+        android:onClick="onClickFive"
+        android:src="@drawable/numfive" />
+
+    <ImageView
+        android:id="@+id/NumEight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NumFive"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@+id/NumOk"
+        android:onClick="onClickEight"
+        android:src="@drawable/numeight" />
+
+    <ImageView
+        android:id="@+id/NumOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/NumCancel"
+        android:layout_alignTop="@+id/NumTwo"
+        android:onClick="onClickOne"
+        android:src="@drawable/numone" />
+
+    <ImageView
+        android:id="@+id/NumFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/NumOne"
+        android:layout_alignTop="@+id/NumFive"
+        android:onClick="onClickFour"
+        android:src="@drawable/numfour" />
+
+    <ImageView
+        android:id="@+id/NumThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/NumOk"
+        android:layout_alignTop="@+id/NumTwo"
+        android:onClick="onClickThree"
+        android:src="@drawable/numthree" />
+
+    <ImageView
+        android:id="@+id/NumSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/NumThree"
+        android:layout_alignTop="@+id/NumFive"
+        android:onClick="onClickSix"
+        android:src="@drawable/numsix" />
+
+    <ImageView
+        android:id="@+id/NumSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/NumFour"
+        android:layout_alignTop="@+id/NumEight"
+        android:onClick="onClickSeven"
+        android:src="@drawable/numseven" />
+
+    <ImageView
+        android:id="@+id/NumNine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/NumSix"
+        android:layout_alignTop="@+id/NumEight"
+        android:onClick="onClickNine"
+        android:src="@drawable/numnine" />
+
+</RelativeLayout>

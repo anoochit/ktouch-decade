@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
         android:text="@string/menu_aboutapp"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 

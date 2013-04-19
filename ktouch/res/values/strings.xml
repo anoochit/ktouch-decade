@@ -5,9 +5,9 @@
     <string name="app_name">Decade Driver</string>
 	<string name="menu_mobile">Number Display</string>
 	<string name="menu_donate">Donate</string>
-	<string name="menu_about">About</string>
-	<string name="menu_aboutapp">Kamen Rider Decade DX K-Touch Sound Board</string>
-	<string name="menu_auther">Thank you for downloading :)</string>
+	<string name="menu_about">Credit</string>
+	<string name="menu_aboutapp">Artwork form Alexander Walden \nfrom http://alpha-vector.deviantart.com.</string>
+	<string name="menu_auther"></string>
 	<string name="menu_exit">Exit</string>
 	
 </resources>
